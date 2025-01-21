@@ -1,7 +1,7 @@
-@import url('https://fonts.googleapis.com/css2?family=Piazzolla&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Ceviche+One&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Raleway+Dots&display=swap');
-
+@import url("https://fonts.googleapis.com/css2?family=Piazzolla&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Ceviche+One&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Raleway+Dots&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Agu+Display&family=Caveat:wght@400..700&family=Macondo&family=Open+Sans:wght@300;400;600;700&display=swap");
 * {
   padding: 0;
   margin: 0;
@@ -59,7 +59,7 @@ body {
   color: aqua;
   text-decoration: underline;
   text-transform: uppercase;
-  font-family: 'Piazolla', sans-serif;
+  font-family: "Piazolla", sans-serif;
 }
 
 .whyHLetter {
@@ -68,7 +68,7 @@ body {
   color: darkgoldenrod;
   text-decoration: overline;
   text-transform: lowercase;
-  font-family: 'Ceviche One', sans-serif;
+  font-family: "Ceviche One", sans-serif;
 }
 
 .whyYLetter {
@@ -77,228 +77,404 @@ body {
   color: coral;
   text-decoration: none;
   text-transform: uppercase;
-  font-family: 'Raleway Dots', sans-serif;
+  font-family: "Raleway Dots", sans-serif;
 }
 
 /* DID word */
 
 .didDLetter {
+  font: italic small-caps 700 100px "Open Sans", serif;
 }
 
 .didILetter {
+  font: small-caps 400 70px "Open Sans", serif;
 }
 
 .didDTwoLetter {
+  text-decoration: underline;
+  font: 30 50px "Open Sans", serif;
 }
 
 /* THE word */
 
 .theTLetter {
+  text-decoration: line-through;
+  font: oblique small-caps 700 100px "Macondo", serif;
 }
 
 .theHLetter {
+  text-decoration: overline;
+  font: italic small-caps bold 60px "Caveat", serif;
 }
 
 .theELetter {
+  text-transform: uppercase;
+  text-decoration: overline;
+  font: italic small-caps 300 60px "Agu Display", serif;
 }
 
 /* FRONT-END word */
 
 .frontendFLetter {
+  text-decoration: overline;
+  font: italic small-caps 300 60px "Macondo", serif;
 }
 
 .frontendRLetter {
+  font: italic 300 60px "Macondo", serif;
+  text-decoration: underline;
 }
 
 .frontendOLetter {
+  text-decoration: line-through;
+  font: oblique small-caps 700 100px "Caveat", serif;
 }
 
 .frontendNLetter {
+  text-decoration: underline;
+  font: 30 50px "Open Sans", serif;
 }
 
 .frontendTLetter {
+  text-transform: uppercase;
+  text-decoration: overline;
+  font: italic small-caps 300 40px "Agu Display", serif;
 }
 
 .frontendELetter {
+  text-decoration: underline;
+  font: 30 50px "Open Sans", serif;
 }
 
 .frontendNTwoLetter {
+  text-decoration: overline;
+  font: italic small-caps 300 70px "Agu Display", serif;
 }
 
 .frontendDLetter {
+  text-decoration: overline;
+  font: italic small-caps bold 100px "Macondo", serif;
 }
 
 /* DEVELOPER word */
 
 .developerDLetter {
+  text-decoration: overline;
+  font: italic small-caps 300 40px "Agu Display", serif;
 }
 .developerELetter {
+  text-decoration: line-through;
+  font: oblique 700 100px "Macondo", serif;
 }
 .developerVLetter {
+  font: oblique 700 100px "Macondo", serif;
 }
 .developerETwoLetter {
+  text-decoration: overline;
+  font: italic small-caps 300 100px "Macondo", serif;
 }
 .developerLLetter {
+  text-decoration: line-through;
+  font: oblique small-caps 700 100px "Caveat", serif;
 }
 .developerOLetter {
+  text-decoration: overline;
+  font: italic 300 40px "Agu Display", serif;
 }
 .developerPLetter {
+  text-decoration: underline;
+  font: 30 50px "Open Sans", serif;
 }
 .developerEThreeLetter {
+  font: oblique small-caps 700 100px "Caveat", serif;
 }
 .developerRLetter {
+  font: italic small-caps 300 100px "Macondo", serif;
 }
 
 /* TAKE word */
 
 .takeTLetter {
+  font: italic small-caps 100 50px "Macondo", serif;
 }
 .takeALetter {
+  font: italic small-caps 700 70px "Caveat", serif;
 }
 .takeKLetter {
+  text-decoration: underline;
+  font: italic 400 60px "Macondo", serif;
 }
 .takeELetter {
+  text-decoration: overline;
+  font: italic small-caps 500 40px "Agu Display", serif;
 }
 
 /* UP word */
 
 .upULetter {
+  text-decoration: overline;
+  font: italic small-caps bold 40px "Agu Display", serif;
 }
 .upPLetter {
+  text-decoration: underline;
+  font: italic 700 70px "Caveat", serif;
 }
 
 /* GARDENING word */
 
 .gardeningGLetter {
+  text-decoration: overline;
+  font: italic small-caps 300 40px "Agu Display", serif;
 }
 .gardeningALetter {
+  font: italic small-caps 100 50px "Macondo", serif;
 }
 .gardeningRLetter {
+  text-decoration: underline;
+  font: 300 100px "Open Sans", serif;
 }
 .gardeningDLetter {
+  text-transform: uppercase;
+  text-decoration: underline;
+  font: italic 700 70px "Caveat", serif;
 }
 .gardeningELetter {
+  text-decoration: underline;
+  font: oblique 50px "Open Sans", serif;
 }
 .gardeningNLetter {
+  text-decoration: overline;
+  font: italic small-caps bold 40px "Agu Display", serif;
 }
 .gardeningILetter {
+  text-decoration: underline;
+  font: italic 400 50px "Open Sans", serif;
 }
 .gardeningNTwoLetter {
+  font: italic 100 50px "Macondo", serif;
 }
 .gardeningGTwoLetter {
+  text-decoration: underline;
+  font: italic small-caps 700 70px "Caveat", serif;
 }
 
 /* BECAUSE word */
 
 .becauseBLetter {
+  text-decoration: underline;
+  font: italic small-caps 400 70px "Caveat", serif;
 }
 .becauseELetter {
+  font: italic 100 50px "Macondo", serif;
 }
 .becauseCLetter {
+  text-decoration: underline;
+  font: italic small-caps 700 70px "Caveat", serif;
 }
 .becauseALetter {
+  text-decoration: underline;
+  font: italic small-caps 500 100px "Caveat", serif;
 }
 .becauseULetter {
+  font: italic 100 50px "Macondo", serif;
 }
 .becauseSLetter {
+  text-decoration: overline;
+  font: italic small-caps 300 40px "Agu Display", serif;
 }
 .becauseETwoLetter {
+  text-decoration: underline;
+  font: italic small-caps bold 60px "Agu Display", serif;
 }
 
 /* THEY word */
 
 .theyTLetter {
+  text-decoration: overline;
+  font: italic small-caps 300 40px "Agu Display", serif;
 }
 .theyHLetter {
+  text-decoration: underline;
+  font: italic 700 20px "Open Sans", serif;
 }
 .theyELetter {
+  text-decoration: underline;
+  font: italic 400 50px "Open Sans", serif;
 }
 .theyYLetter {
+  text-decoration: underline;
+  font: italic small-caps 700 30px "Caveat", serif;
 }
 
 /* WANTED word */
 
 .wantedWLetter {
+  text-transform: uppercase;
+  text-decoration: underline;
+  font: italic small-caps 700 30px "Caveat", serif;
 }
 .wantedALetter {
+  text-decoration: overline;
+  font: italic small-caps 300 40px "Agu Display", serif;
 }
 .wantedNLetter {
+  text-decoration: underline;
+  font: italic bold 50px "Open Sans", serif;
 }
 .wantedTLetter {
+  text-decoration: overline;
+  font: italic small-caps 300 70px "Agu Display", serif;
 }
 .wantedELetter {
+  text-decoration: underline;
+  font: italic small-caps 700 60px "Caveat", serif;
 }
 .wantedDLetter {
+  text-decoration: underline;
+  font: italic 400 60px "Open Sans", serif;
 }
 
 /* TO word */
 
 .toTLetter {
+  text-decoration: overline;
+  font: italic small-caps 300 20px "Agu Display", serif;
 }
 .toOLetter {
+  text-decoration: underline;
+  font: italic 400 70px "Open Sans", serif;
 }
 
 /* IMPROVE word */
 
 .improveILetter {
+  text-decoration: underline;
+  font: italic bold 60px "Open Sans", serif;
 }
 .improveMLetter {
+  text-decoration: overline;
+  font: italic small-caps 300 20px "Agu Display", serif;
 }
 .improvePLetter {
+  text-decoration: underline;
+  font: oblique 700 60px "Caveat", serif;
 }
 .improveRLetter {
+  text-decoration: overline;
+  font: italic small-caps 300 20px "Agu Display", serif;
 }
 .improveOLetter {
+  text-decoration: underline;
+  font: italic small-caps 700 70px "Agu Display", serif;
 }
 .improveVLetter {
+  text-decoration: underline;
+  font: italic 400 60px "Open Sans", serif;
 }
 .improveELetter {
+  font: italic 100 50px "Macondo", serif;
 }
 
 /* THEIR word */
 
 .theirTLetter {
+  font: italic small-caps 300 60px "Agu Display", serif;
 }
 .theirHLetter {
+  font: italic 400 60px "Open Sans", serif;
 }
 .theirELetter {
+  font: italic 300 100px "Macondo", serif;
 }
 .theirILetter {
+  font: italic small-caps 700 20px "Agu Display", serif;
 }
 .theirRLetter {
+  font: italic 100 50px "Macondo", serif;
 }
 
 /* ROOT word */
 
 .rootRLetter {
+  text-decoration: underline;
+  font: italic 100 50px "Macondo", serif;
 }
 .rootOLetter {
+  font: italic bold 60px "Open Sans", serif;
 }
 .rootOTwoLetter {
+  text-transform: uppercase;
+  text-decoration: line-through;
+  font: italic 400 60px "Open Sans", serif;
 }
 .rootTLetter {
+  font: oblique 700 50px "Agu Display", serif;
 }
 
 /* SKILLS word */
 
 .skillsSLetter {
+  font: oblique 300 20px "Agu Display", serif;
 }
 .skillsKLetter {
+  text-decoration: underline;
+  font: italic 400 100px "Open Sans", serif;
 }
 .skillsILetter {
+  text-decoration: overline;
+  font: italic small-caps 60px "Macondo", serif;
 }
 .skillsLLetter {
+  text-decoration: overline;
+  font: italic 400 40px "Macondo", serif;
 }
 .skillsLTwoLetter {
+  text-transform: uppercase;
+  font: italic small-caps 60px "Open Sans", serif;
 }
 .skillsSTwoLetter {
+  text-decoration: line-through;
+  font: oblique 700 50px "Agu Display", serif;
 }
 
 /* SYMBOLS */
 
 .hyphen {
+  text-decoration: overline;
+  font: italic small-caps 60px "Macondo", serif;
 }
 .exclamation-mark {
+  text-decoration: underline;
+  font: italic 400 100px "Open Sans", serif;
 }
 .question-mark {
+  text-decoration: line-through;
+  font: oblique 700 50px "Agu Display", serif;
+}
+.purple-letter {
+  color: purple;
+}
+.green-letter {
+  color: green;
+}
+.yellow-letter {
+  color: yellow;
+}
+.orange-letter {
+  color: orange;
+}
+.pink-letter {
+  color: pink;
+}
+.light-blue-letter {
+  color: lightblue;
+}
+.red-letter {
+  color: red;
+}
+.brown-letter {
+  color: brown;
+}
+.blue-letter {
+  color: blue;
 }
